@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="mb-4 md:mb-0">
             <h2 className="text-white text-xl font-semibold mb-2">Airline Management</h2>
-            <p className="text-gray-400">© 2024 Airline Management. All rights reserved.</p>
+            <p className="text-gray-400">© 2025 Airline Management. All rights reserved.</p>
           </div>
           <div>
             <h3 className="text-white text-lg font-semibold mb-2">Contact Us</h3>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../Components/Common/Footer";
+// import chethanaImage from "./image.jpg";
 const AboutUs = () => {
    const [formData, setFormData] = useState({
     name: "",
@@ -50,22 +51,24 @@ const AboutUs = () => {
 
         <h2 className="text-3xl font-bold text-center mb-8 font-serif text-black underline">Our Team</h2>
         
-        <div className="flex flex-wrap justify-center items-center gap-10 ">
-          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-10 ">
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src="https://res.cloudinary.com/du6cdpmzi/image/upload/v1710073017/samples/WhatsApp_Image_2023-12-20_at_01.53.34_jg6cyv.jpg" alt="Ankul" className="w-full " />
-              <div className="p-6">
-                <h2 className="text-xl font-bold mb-2 text-gray-900 font-serif">Ankul Raja Patel</h2>
-                <p className="text-gray-600 mb-2 font-serif">Backend Designer</p>
-                <p className="text-gray-700 mb-4 font-semibold">
-Ankul, the meticulous backend designer, crafts the intricate framework powering an airline system website, ensuring seamless functionality and reliability for travelers worldwide.</p>
-                <p className="text-gray-700 mb-2 font-bold">ankulraja2002@gmail.com</p>
-                <button className="bg-black text-white py-2 px-4 w-full hover:bg-gray-800 transition duration-300 ease-in-out">Contact</button>
-              </div>
-            </div>
-          </div>
+       <div className="flex flex-wrap justify-center items-center gap-10 ">
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-10 ">
+    <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+      <img src="https://res.cloudinary.com/du6cdpmzi/image/upload/v1756583598/image_rfn8bn.jpg" alt="Budati Chethana" className="w-full " />
+      <div className="p-6">
+        <h2 className="text-xl font-bold mb-2 text-gray-900 font-serif">Budati Chethana</h2>
+        <p className="text-gray-600 mb-2 font-serif">Full stack Developer</p>
+        <p className="text-gray-700 mb-4 font-semibold">
+        Chethana, the dynamic full stack developer, is the architect behind the entire airline system website. She crafts the intuitive user interface while building the powerful backend systems that handle everything from flight data to secure payments, delivering a complete and reliable journey for every visitor.
+        </p>
+        <p className="text-gray-700 mb-2 font-bold">budatichethana@gmail.com</p>
+        <button className="bg-black text-white py-2 px-4 w-full hover:bg-gray-800 transition duration-300 ease-in-out">Contact</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-10">
+            {/*<div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-10">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img src="https://res.cloudinary.com/dppgyjdcg/image/upload/b_rgb:FFFFFF/c_crop,ar_1:1/v1713292641/pic3_nfvmpc.jpg" alt="Priyanshu" className="w-full " />
               <div className="p-6">
@@ -78,8 +81,8 @@ Priyanshu, the creative force behind the frontend, weaves intuitive interfaces a
               </div>
             </div>
           </div>
-        </div>
-        <div className='flex flex-wrap justify-center items-center gap-10'>
+        </div> */}
+        {/* <div className='flex flex-wrap justify-center items-center gap-10'>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-10">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img src="https://res.cloudinary.com/dppgyjdcg/image/upload/c_crop,ar_1:1/v1713293058/supriya_xdp5m0.jpg" alt="supriya" className="w-full " />
@@ -106,7 +109,8 @@ Puneeth, the UI designer, blends aesthetics and usability, crafting the airline 
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        
       </div>
     <div className="">
         <Footer></Footer>
